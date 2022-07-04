@@ -4,7 +4,7 @@
   gather_facts: false
   become: true
   tasks:
-    - name: install application
+    - name: uninstall application
       dnf:
         name: httpd
         state: absent
